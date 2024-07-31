@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
-import { useAppState } from '../../state';
+
 
 export default function LoginPage() {
-  const { user } = useAppState();
+ 
   const history = useHistory();
 
   useEffect(() => {
